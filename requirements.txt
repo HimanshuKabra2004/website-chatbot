@@ -4,4 +4,8 @@ beautifulsoup4
 langchain
 sentence-transformers
 faiss-cpu
+langchain==0.1.16
+langchain-community
+langchain-core
+
 python-dotenv
