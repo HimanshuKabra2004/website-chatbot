@@ -145,7 +145,27 @@ streamlit run app.py
 * Internal knowledge base assistant
 
 ---
+## Local Setup Instructions
+
+### 1. Clone the repository
+git clone https://github.com/username/repo-name.git
+cd repo-name
+
+### 2. Create virtual environment
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+### 4. Run the Streamlit app
+streamlit run app.py
+
+### 5. Open in browser
+http://localhost:8501
+
 
 ## Author Notes
 
 This project is built following industry-standard RAG architecture and is suitable for technical assessments, internships, and real-world deployments.
+
